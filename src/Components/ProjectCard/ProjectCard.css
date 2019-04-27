@@ -1,0 +1,10 @@
+.Card {
+    box-shadow: inset -1px  -8px 40px #d0d0d0;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: box-shadow .3s;
+}
+.Card:hover {
+    box-shadow: inset -12px -8px 40px #cecece;
+}
