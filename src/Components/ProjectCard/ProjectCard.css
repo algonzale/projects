@@ -8,3 +8,10 @@
 .Card:hover {
     box-shadow: inset -12px -8px 40px #cecece;
 }
+.Card_bottom-image {
+  display: block;
+  max-width: 270px;
+  height: auto;
+  max-height: 250px;
+  margin: auto;
+}

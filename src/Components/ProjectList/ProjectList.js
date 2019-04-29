@@ -2,20 +2,22 @@ import React from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard.js';
 import './ProjectList.css'
 
-const ProjectList =({ projects })=> {
+const ProjectList =({ projects, changePopUp })=> {
   return (
     <div className="gridContainer">
     {
       projects.map((project) => {
-        const { name, description, key, link, githubPage, isDone } = project;
+        const { name, description, id, link, images, githubPage, status} = project;
         return (
           <ProjectCard 
             name = {name}
             description = {description}
-            key = {key}
+            id = {id}
             link = {link}
+            images = {images}
             githubPage = {githubPage}
-            isDone = {isDone}
+            status = {status}
+            changePopUp = {changePopUp}
           />
         );
       })

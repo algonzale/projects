@@ -1,0 +1,18 @@
+.popup {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  right: 10px;
+  bottom: 10px;
+}
+.popup_grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+}
+.popup_grid_slideshow {
+  background-color: #e4e4e4;
+}
