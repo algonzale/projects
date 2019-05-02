@@ -46,7 +46,7 @@ const ProjectCard =({
               <button onClick={callChangePopUp} className="Card_bottom_detailsDiv_button properSpacing">< FaEllipsisH className="icon" />Details</button>
             </div>
             <div className="Card_bottom_linksDiv">
-              {(link === null) ? null : <a className="websiteLink properSpacing" href={link}><FaGlobe className="icon" />Website Link</a> }
+              {(link === null) ? null : <a className="websiteLink properSpacing" href={link}><FaGlobe className="icon" />Website</a> }
               <a className="githubLink properSpacing" href={githubPage}><FaGithub className="icon" />Github Page</a>
             </div>
           </div>

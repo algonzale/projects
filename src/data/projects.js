@@ -41,7 +41,7 @@ const projects = [
     description: 'A savings calculator made with React.js, and Node.js',
     key: 1,
     id: 1,
-    link: 'scalcreact',
+    link: 'https://algonzale.github.io/scalcreact/',
     images: [
     './assets/images/scr_t0.PNG'
     ],
@@ -149,7 +149,7 @@ const projects = [
     description: 'A space invaders inspired game I made for my english class using p5.js',
     key: 4,
     id: 4,
-    link: '451game',
+    link: 'https://algonzale.github.io/451game/',
     images: [
       './assets/images/fg_t0.PNG',
     ],
