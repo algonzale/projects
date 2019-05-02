@@ -21,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
+      <div id="shading"></div>
         <Header />
         <CardPopUp project={this.state.PopUp} />  
         <ProjectList projects={projects} changePopUp={this.changePopUp}/>

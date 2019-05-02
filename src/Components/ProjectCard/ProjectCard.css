@@ -1,3 +1,12 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.properSpacing {
+  margin-right: 10px;
+}
 .Card {
     box-shadow: inset -1px  -8px 40px #d0d0d0;
     margin: 10px;
@@ -14,4 +23,48 @@
   height: auto;
   max-height: 250px;
   margin: auto;
+}
+.Card_bottom_detailsDiv {
+  display: flex;
+  align-items: center;
+}
+.Card_bottom_detailsDiv_status {
+  border: solid thin #cecece;
+  border-radius: 10px;
+  background-color: #FFEB3B;
+  padding: 2px 10px;
+}
+.statusDone {
+  background-color: rgb(194, 255, 138);
+}
+.statusInDev {
+  background-color: #FFEB3B;
+}
+.Card_bottom_detailsDiv_button {
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 6px 8px;
+}
+.Card_bottom_detailsDiv_button:hover {
+  box-shadow: 2px 2px 4px rgb(144, 144, 144);
+}
+.Card_bottom_linksDiv {
+  display: flex;
+}
+.websiteLink, .githubLink {
+  border: solid thin #cecece;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 2px 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 4px;
 }
