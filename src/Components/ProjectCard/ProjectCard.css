@@ -65,6 +65,9 @@ button:focus {
   display: flex;
   align-items: center;
 }
+.websiteLink:hover, .githubLink:hover {
+  box-shadow: 2px 2px 4px rgb(144, 144, 144);
+}
 .icon {
   margin-right: 4px;
 }

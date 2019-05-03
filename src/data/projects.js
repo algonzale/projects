@@ -35,6 +35,50 @@ const projects = [
         image: "./assets/images/technologies/php.png"
       },
     ],
+  },
+  {
+    name: 'Face Recognition App',
+    description: 'A face recognition app made with React.js, and Express.js',
+    key: 3,
+    id: 3,
+    link: 'https://algonzale.github.io/facerecognition',
+    images: [
+      './assets/images/fr_t0.PNG',
+    ],
+    explanation: "This website allows users to login, register and submit photos. The website will then detect all the " + 
+    "picture and render a blue box around them. This app uses React.js, Node.js, express.js and knex.js",
+    githubPage: 'https://github.com/algonzale/facerecognition',
+    status: 'In Dev',
+    technologies: [
+      {
+        name: "JavaScript",
+        image: "./assets/images/technologies/js.jpg"
+      },
+      {
+        name: "HTML5",
+        image: "./assets/images/technologies/html5.png"
+      },
+      {
+        name: "CSS",
+        image: "./assets/images/technologies/css.png"
+      },
+      {
+        name: "React.js",
+        image: "./assets/images/technologies/react.png"
+      },
+      {
+        name: "Node.js",
+        image: "./assets/images/technologies/node.png"
+      },
+      {
+        name: "express.js",
+        image: "./assets/images/technologies/express.png"
+      },
+      {
+        name: "knex.js",
+        image: "./assets/images/technologies/knex.png"
+      },
+    ],
   },  
   {
     name: 'Savings Calculator React',
@@ -73,7 +117,7 @@ const projects = [
     description: 'A robot friend finding app made with React.js',
     key: 2,
     id: 2,
-    link: null,
+    link: 'https://algonzale.github.io/robofriends/',
     images: [
       './assets/images/rf_t0.PNG',
     ],
@@ -97,50 +141,6 @@ const projects = [
       {
         name: "React.js",
         image: "./assets/images/technologies/react.png"
-      },
-    ],
-  },
-  {
-    name: 'Face Recognition App',
-    description: 'A face recognition app made with React.js, and Express.js',
-    key: 3,
-    id: 3,
-    link: null,
-    images: [
-      './assets/images/fr_t0.PNG',
-    ],
-    explanation: "This website allows users to login, register and submit photos. The website will then detect all the " + 
-    "picture and render a blue box around them. This app uses React.js, Node.js, express.js and knex.js",
-    githubPage: 'https://github.com/algonzale/facerecognition',
-    status: 'In Dev',
-    technologies: [
-      {
-        name: "JavaScript",
-        image: "./assets/images/technologies/js.jpg"
-      },
-      {
-        name: "HTML5",
-        image: "./assets/images/technologies/html5.png"
-      },
-      {
-        name: "CSS",
-        image: "./assets/images/technologies/css.png"
-      },
-      {
-        name: "React.js",
-        image: "./assets/images/technologies/react.png"
-      },
-      {
-        name: "Node.js",
-        image: "./assets/images/technologies/node.png"
-      },
-      {
-        name: "express.js",
-        image: "./assets/images/technologies/express.png"
-      },
-      {
-        name: "knex.js",
-        image: "./assets/images/technologies/knex.png"
       },
     ],
   },
